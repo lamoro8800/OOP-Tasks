@@ -1,9 +1,22 @@
+// File: task2.cpp
+// Purpose: In this program, there is a base class shape: with two data members to compute the area of different shapes. Derive two classes’ triangle and rectangle from the base shape. Include constructors in every class to initialize the objects. Include one pure virtual function computeArea() to compute area.
+// Author: Ahmed Ashraf Attia
+// Section: S27
+// ID: 20230606
+// TA: Hager Ashry
+// Date: 12 Nov 2023
+
+
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
 //Shape class 
 //attributes: length, width
-//functions: constractor, computeArea, getArea
+//functions: constructor, computeArea, getArea
 class Shape{
 protected:
     double length, width;
@@ -22,7 +35,7 @@ public:
 
 //Triangle class
 //attributes:
-//functions: constractor, computeArea
+//functions: constructor, computeArea
 class Triangle: public Shape{
 public:
     Triangle(double l, double w): Shape(l, w) {}
@@ -40,7 +53,7 @@ public:
 
 //rectangle class
 //attributes:
-//functions: constractor, computeArea
+//functions: constructor, computeArea
 class rectangle: public Shape{
 public:
     rectangle(double l, double w): Shape(l, w) {}
