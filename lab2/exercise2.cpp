@@ -1,6 +1,15 @@
+// File: exercise2.cpp
+// Purpose: In this program, there are two types of employees: fixed salary per month and hourly salary. Each of those types has his own way to calculate his salary. Each employee has the following properties (name, age, net pay).
+// Author: Ahmed Ashraf Attia
+// Section: S27
+// ID: 20230606
+// TA: Hager Ashry
+// Date: 12 Nov 2023
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 //Employee class
 //attributes: name, id, netpay
